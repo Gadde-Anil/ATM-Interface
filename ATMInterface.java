@@ -7,8 +7,7 @@ public class ATMInterface {
 		System.out.println();
 	}
     //Amount after withdrawing
-	public static int amountWithdrawing(int balance,
-										int withdrawAmount)
+	public static int amountWithdrawing(int balance, int withdrawAmount)
 	{
 		System.out.println("Withdrawn Operation:");
 		System.out.println("Withdrawing Amount : " + withdrawAmount);
@@ -26,8 +25,7 @@ public class ATMInterface {
 	}
 
 	// Deposit amount and update the balance
-	public static int amountDepositing(int balance,
-									int depositAmount)
+	public static int amountDepositing(int balance, int depositAmount)
 	{
 		System.out.println("Deposit Operation:");
 		System.out.println("Depositing Amount : " + depositAmount);
